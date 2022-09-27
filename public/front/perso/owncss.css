@@ -1,0 +1,74 @@
+
+.footstyle{background:#f1f1f1; padding: 10px; }
+.badgeinfoci{ color:#165fe5; font-size: 18px;}
+
+
+
+.detailt{ 
+font-size: 15px;
+}
+
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+  padding-bottom: 40px;
+  color: #0f0d78
+}
+
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+/* alignement elements*/
+.media-bodyu, .media-leftu, .media-rightu {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+@media (min-width: 767px) {
+
+  .media-bodyu, .media-leftu, .media-rightu {
+      display: table-cell;
+      vertical-align: middle;
+  }
+}
+
+@media (max-width: 480px) {
+  
+  .media-bodyu, .media-leftu, .media-rightu {
+    margin-left:70px;
+    margin-right: auto;
+    margin-bottom: 10px;
+    display: block;
+
+    }
+
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here 
+  height: 60px;*/
+  background-color: #f5f5f5;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #066732;
+}
+
+.blog-footer {
+  padding: 40px 0;
+  color: #999;
+  text-align: center;
+  background-color: #f9f9f9;
+  border-top: 1px solid #e5e5e5;
+}
+.blog-footer p:last-child {
+  margin-bottom: 0;
+}

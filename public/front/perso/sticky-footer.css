@@ -1,0 +1,52 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+
+/*@media (min-width: 767px) {
+
+  .footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #eee;
+  }
+
+  .footer div{
+    padding-top:10px ;
+  }
+}
+
+@media (max-width: 480px) {
+
+  .footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #eee;
+    
+  }
+  .footer div{
+    text-align: center;
+  } 
+}
+
+*/
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+
+/*
+ * Footer
+ */
+
+.blog-footer {
+  padding: 0px 0;
+  color: #999;
+  text-align: center;
+  background-color: #f9f9f9;
+  border-top: 1px solid #e5e5e5;
+}
+.blog-footer p:last-child {
+  margin-bottom: 0;
+}
+
